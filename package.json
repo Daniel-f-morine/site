@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "eslint": "^8.30.0"
+  },
+  "dependencies": {
+    "bowser": "^2.11.0"
+  }
+}

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'bitterregular';
+    src: url('bitter-regular-webfont.woff2') format('woff2'),
+         url('bitter-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+    font-family: 'bitterregular';
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+font-size: 30pt;
+}
+
+p.info {
+
+    margin-left: 50px;
+    text-indent: 50px;
+    font-size: 15pt;
+    margin-bottom: 40px;
+}
+
+.tordiagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
